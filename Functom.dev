@@ -1,6 +1,6 @@
 [Project]
-filename=Ficha2.dev
-name=Ficha2
+filename=Functom.dev
+name=Functom
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;2;0;0;0
-UnitCount=14
+UnitCount=2
 
 [VersionInfo]
 Major=1
@@ -50,18 +50,8 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit1]
-FileName=Ex1.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit2]
-FileName=..\Ficha2\Ex1.cpp
+FileName=main.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -181,6 +171,16 @@ BuildCmd=
 
 [Unit14]
 FileName=..\Ficha2\Ex12.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit1]
+FileName=funcs.h
 CompileCpp=1
 Folder=
 Compile=1
