@@ -64,10 +64,10 @@ void desc(float o){
 void charc(char b){
 	
 	if(b == 'a' || b == 'A'){
-		cout << "Parabéns!! Acertaste!!!";
+		cout << "Parabens!! Acertaste!!!";
 	}
 	else{
-		cout << "Oh... Fica para a próxima...";
+		cout << "Oh... Fica para a proxima...";
 	}
 	
 }
@@ -102,16 +102,16 @@ void person(string n, int i){
 		cout << n << " e um bebe";
 	}
 	else if (i > 5 && i < 7){
-		cout << n << " pertence ao escalão Infatil A";
+		cout << n << " pertence ao escalao Infatil A";
 	}
 	else if (i > 8 && i < 11){
-		cout << n << " pertence ao escalão Infatil B";
+		cout << n << " pertence ao escalao Infatil B";
 	}
 	else if  (i > 12 && i < 13){
-		cout << n << " pertence ao escalão Juvenil A";
+		cout << n << " pertence ao escalao Juvenil A";
 	}
 	else if (i > 14 && i < 17){
-		cout << n << " pertence ao escalão Juvenil B";
+		cout << n << " pertence ao escalao Juvenil B";
 	}
 	else if (i > 18){
 		cout << n << " e um Adulto";

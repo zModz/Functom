@@ -8,7 +8,19 @@ int main(int argc, char** argv) {
 	int x;
 	
 	do{
-		cout << "Escolha um exercicio (1-12, 0 para sair): ";
+		cout << "01 - Quadrado de um numero;\n" 
+			 <<	"02 - Numero par ou Impar;\n" 
+			 << "03 - Convertor Celcius para Fahrenheit;\n" 
+			 << "04 - Mostra a metade de um numero for maior que 20;\n" 
+			 << "05 - Mostra o antecessor e sucessor de um numero;\n" 
+			 << "06 - Aplica um desconto de 10% a um preco;\n" 
+			 << "07 - Verifica se um caracter e igual a 'a' ou a 'A';\n" 
+			 << "08 - Soma de 2 valores com um twist;\n" 
+			 << "09 - Mostra a idade da pessoa;\n" 
+			 << "10 - Mostra o escalao de idade que uma pessoa pertence;\n" 
+			 << "11 - Calculadora;\n" 
+			 << "12 - Imprima o nome de uma pessoa tantas vezes como a sua idade;\n";
+		cout << "Escolha uma opcao (0 para sair): ";
 		cin >> x;
 		
 		switch(x){
